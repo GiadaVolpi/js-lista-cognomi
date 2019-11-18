@@ -1,0 +1,23 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sub-container {
+    display: none;
+    width: 400px;
+    margin: 20px auto;
+    background-color: lightblue;
+    font-size: 20px;
+    line-height: 50px;
+    padding: 40px;
+}
+
+#sub-container.visible {
+    display: block;
+}
+
+#cognome, #posizione {
+    font-weight: bold;
+}
